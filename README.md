@@ -37,7 +37,7 @@ In this sections we sign and execute a payment transaction. Specifically, we:
 We inspect the transaction by: 
 * Sending a test transaction by using the application’s web interface, and then looking up the resulting transaction hash in Ganache.
 * My account address, balance and TX count can be found below: 
-
+![User Account](user_account.jpg)
 
 * A screenshot of one of my transactions with the candidate can be found below: 
-
+![Transactions](transactions.jpg)
