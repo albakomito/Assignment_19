@@ -5,7 +5,7 @@ Assignment 19
 ## Step 1 (fintech_finder.py, ln 34-183)
 In this section  we Import Ethereum Transaction Functions from crypto_wallet.py into our fintech_finder.py file. Specifically, we: 
 * Import the `generate_account`,  `get_balance`, and send_transaction` functions (alongside w3). 
-* Use the candidate information provided as part of the starter code (we'll creating a folder in our repo named 'Images' from which our code will pull the different candidates' profile pictures). 
+* Use the candidate information provided as part of the starter code (we'll create a folder in our repo named 'Images' from which our code will pull the different candidates' profile pictures). 
 * The candidate information consists of a candidate database (a dictionary with nested lists), a list of candidate names, and the 'get_people' function that displays the candidate information (consisting of their names, Ethereum account addresses, their 'Fintech Finder' rating, and hourly rate). 
 * Prepare the streamlit application and sidebar headers. 
 * Create a variable account that calls the 'generate_account' function (ln 131-134).
@@ -37,7 +37,9 @@ In this sections we sign and execute a payment transaction. Specifically, we:
 We inspect the transaction by: 
 * Sending a test transaction by using the application’s web interface, and then looking up the resulting transaction hash in Ganache.
 * My account address, balance and TX count can be found below: 
+
 ![User Account](user_account.jpg)
 
 * A screenshot of one of my transactions with the candidate can be found below: 
+
 ![Transactions](transactions.jpg)
